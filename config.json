@@ -1,0 +1,37 @@
+{
+  "twitter": {
+    "consumer_key": "nicetry",
+    "consumer_secret": "Ivemadethismistakebefore",
+    "access_token": "Iveleftkeysincommitfilesbefore",
+    "access_secret": "butnottodaybuddy",
+    "stream_interval": 10,
+    "keywords_to_track": [
+      "trump"
+    ]
+  },
+  "spark": {
+    "tcp_ip": "localhost",
+    "tcp_port": 9009
+  },
+  "sentiment": {
+    "model1_path": "./model/OtherModel",
+    "model2_path": "./model/NBModel",
+    "nb_weight": 0.35,
+    "vader_weight": 0.50,
+    "textblob_weight": 0.15
+  },
+  "image": {
+    "save_path": "./images/sentiment",
+    "X_dim": 6,
+    "Y_dim": 10,
+    "R_ratio": 1,
+    "G_ratio": 1,
+    "B_ratio": 1
+  },
+  "aws": {
+    "key_id": "",
+    "key_secret": "",
+    "session_token": "",
+    "s3_bucket": ""
+  }
+}
